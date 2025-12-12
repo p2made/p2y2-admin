@@ -1,11 +1,11 @@
 {
-	"name": "p2made/p2y2-sb-admin",
+	"name": "p2made/p2y2-admin",
 	"description": "SB Admin from Start Bootstrap, http://startbootstrap.com/, as a backend UI for Yii 2 Framework.",
 	"type": "yii2-extension",
 	"keywords": [
 		"yii2", "yii", "extension", "PHP",
 		"asset", "bundle",
-		"Start-Bootstrap", "sb-admin-2",
+		"Start-Bootstrap", "Yii admin", "sb-admin", "sb-admin-2",
 		"backend", "admin", "ui", "user-interface", "theme"
 	],
 	"license": "MIT",
@@ -28,7 +28,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"p2m\\sbAdmin\\": ""
+			"p2m\\admin\\": ""
 		}
 	}
 }
