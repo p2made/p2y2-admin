@@ -1,6 +1,6 @@
 <?php
 /**
- * P2sbAdminAsset.php
+ * P2SBAdminAsset.php
  *
  * Yii2 asset for sbAdmin
  *
@@ -9,28 +9,30 @@
  * @link https://github.com/p2made
  * @license MIT
  *
- * @package p2made/yii2-sb-admin
- * @class \p2m\assets\P2sbAdminAsset
+ * @package p2made/yii2-admin
+ * @class \p2m\assets\P2SBAdminAsset
  */
 
 /**
  * Load this asset with...
- * p2m\sbAdmin\assets\P2sbAdminAsset::register($this);
- *
+\p2m\admin\sbadmin\assets\P2SBAdminAsset::register($this);
+ * or...
+use p2m\admin\sbadmin\assets\P2SBAdminAsset;
+P2SBAdminAsset::register($this);
  * or specify as a dependency with...
- *     'p2m\sbAdmin\assets\P2sbAdminAsset',
+		'p2m\admin\sbadmin\assets\P2SBAdminAsset',
  */
 
-namespace p2m\sb-admin\assets;
+namespace p2m\admin\sbadmin\assets;
 
 use yii\web\AssetBundle;
 
-class P2sbAdminAsset extends AssetBundle
+class P2SBAdminAsset extends AssetBundle
 {
-	public $sourcePath = '@p2m/sb-admin/assets/lib/sb-admin';
+	public $sourcePath = '@p2m/admin/sbadmin/assets/lib';
 
 	public $css = [
-		'css/sb-admin.min.css',
+		'css/sbadmin.min.css',
 	];
 
 	public $cssOptions = [
@@ -38,7 +40,7 @@ class P2sbAdminAsset extends AssetBundle
 	];
 
 	public $js = [
-		'js/sb-admin.min.js',
+		'js/sbadmin.min.js',
 	];
 
 	public $jsOptions = [
