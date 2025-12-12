@@ -15,7 +15,7 @@
 
 /**
  * Load this asset with...
-\p2m\admin\sbadmin\assets\P2SBAdminAsset::register($this);
+p2m\admin\sbadmin\assets\P2SBAdminAsset::register($this);
  * or...
 use p2m\admin\sbadmin\assets\P2SBAdminAsset;
 P2SBAdminAsset::register($this);
@@ -32,7 +32,7 @@ class P2SBAdminAsset extends AssetBundle
 	public $sourcePath = '@p2m/admin/sbadmin/assets/lib';
 
 	public $css = [
-		'css/sbadmin.min.css',
+		'css/sb-admin.min.css',
 	];
 
 	public $cssOptions = [
@@ -40,7 +40,7 @@ class P2SBAdminAsset extends AssetBundle
 	];
 
 	public $js = [
-		'js/sbadmin.min.js',
+		'js/sb-admin.min.js',
 	];
 
 	public $jsOptions = [

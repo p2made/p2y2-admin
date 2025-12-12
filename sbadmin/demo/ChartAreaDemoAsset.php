@@ -11,24 +11,26 @@
  * @license MIT
  *
  * @package p2made/yii2-p2y2-things
- * @class \p2m\sbAdmin\demo\ChartAreaDemoAsset
+ * @class \p2m\admin\sbadmin\demo\ChartAreaDemoAsset
  */
 
 /**
  * Load this asset with...
-p2m\sbAdmin\demo\ChartAreaDemoAsset::register($this);
-
+p2m\admin\sbadmin\demo\ChartAreaDemoAsset::register($this);
+ * or...
+use p2m\admin\sbadmin\demo\ChartAreaDemoAsset;
+P2SBAdminAsset::register($this);
  * or specify as a dependency with...
-		'p2m\sbAdmin\demo\ChartAreaDemoAsset',
+		'p2m\admin\sbadmin\demo\ChartAreaDemoAsset',
  */
 
-namespace p2m\sbAdmin\demo;
+namespace p2m\admin\sbadmin\demo;
 
 use yii\web\AssetBundle;
 
 class ChartAreaDemoAsset extends AssetBundle
 {
-	public $sourcePath = '@p2m/sbAdmin/demo/sb-admin';
+	public $sourcePath = '@p2m/admin/sbadmin/demo/data';
 
 	public $js = [
 		'chart-area-demo.js',
@@ -39,7 +41,6 @@ class ChartAreaDemoAsset extends AssetBundle
 	];
 
 	public $depends = [
-		'p2m\sbAdmin\demo\P2BootstrapAsset',
-		'p2m\sbAdmin\demo\P2BootstrapIconsAsset',
+		'p2m\admin\sbadmin\assets\P2SBAdminAsset',
 	];
 }

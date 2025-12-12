@@ -11,24 +11,26 @@
  * @license MIT
  *
  * @package p2made/yii2-p2y2-things
- * @class \p2m\sbAdmin\demo\DatatablesSimpleDemoAsset
+ * @class \p2m\admin\sbadmin\demo\DatatablesSimpleDemoAsset
  */
 
 /**
  * Load this asset with...
-p2m\sbAdmin\demo\DatatablesSimpleDemoAsset::register($this);
-
+p2m\admin\sbadmin\demo\DatatablesSimpleDemoAsset::register($this);
+ * or...
+use p2m\admin\sbadmin\demo\DatatablesSimpleDemoAsset;
+P2SBAdminAsset::register($this);
  * or specify as a dependency with...
-		'p2m\sbAdmin\demo\DatatablesSimpleDemoAsset',
+		'p2m\admin\sbadmin\demo\DatatablesSimpleDemoAsset',
  */
 
-namespace p2m\sbAdmin\demo;
+namespace p2m\admin\sbadmin\demo;
 
 use yii\web\AssetBundle;
 
 class DatatablesSimpleDemoAsset extends AssetBundle
 {
-	public $sourcePath = '@p2m/sbAdmin/demo/sb-admin';
+	public $sourcePath = '@p2m/admin/sbadmin/demo/data';
 
 	public $js = [
 		'datatables-simple-demo.js',
@@ -39,7 +41,6 @@ class DatatablesSimpleDemoAsset extends AssetBundle
 	];
 
 	public $depends = [
-		'p2m\sbAdmin\demo\P2BootstrapAsset',
-		'p2m\sbAdmin\demo\P2BootstrapIconsAsset',
+		'p2m\admin\sbadmin\assets\P2SBAdminAsset',
 	];
 }
