@@ -33,13 +33,13 @@ composer require p2made/p2y2-sb-admin "dev-5.0.0-dev"
 or
 
 ```
-php composer.phar require p2made/p2y2-sb-admin "dev-5.0.0-dev"
+php composer.phar require p2made/p2y2-admin "dev-5.0.0-dev"
 ```
 
 Alternatively add:
 
 ```
-		"p2made/p2y2-sb-admin": "dev-5.0.0-dev"
+		"p2made/p2y2-admin": "dev-5.0.0-dev"
 ```
 
 to the requires section of your `composer.json` file & P2 SB Admin Theme will be installed next time you run `composer update`.

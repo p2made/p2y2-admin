@@ -9,19 +9,19 @@
  * @link https://github.com/p2made
  * @license MIT
  *
- * @package p2made/yii2-sb-admin
- * @class \p2m\assets\P2sbAdmin2Asset
+ * @package p2made/yii2-admin
+ * @class \p2m\admin\assets\P2sbAdmin2Asset
  */
 
 /**
  * Load this asset with...
- * p2m\sbAdmin\assets\P2sbAdmin2Asset::register($this);
+ * p2m\admin\assets\P2sbAdmin2Asset::register($this);
  *
  * or specify as a dependency with...
- *     'p2m\sbAdmin\assets\P2sbAdmin2Asset',
+ *     'p2m\admin\assets\P2sbAdmin2Asset',
  */
 
-namespace p2m\sbAdmin\assets;
+namespace p2m\admin\assets;
 
 use yii\web\AssetBundle;
 
