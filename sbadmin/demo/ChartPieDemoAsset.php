@@ -41,6 +41,5 @@ class ChartPieDemoAsset extends AssetBundle
 	];
 
 	public $depends = [
-		'p2m\admin\sbadmin\assets\P2SBAdminAsset',
 	];
 }

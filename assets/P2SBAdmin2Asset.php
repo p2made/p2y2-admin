@@ -15,10 +15,13 @@
 
 /**
  * Load this asset with...
- * p2m\admin\assets\P2sbAdmin2Asset::register($this);
- *
+
+p2m\admin\assets\P2sbAdmin2Asset::register($this);
+
  * or specify as a dependency with...
- *     'p2m\admin\assets\P2sbAdmin2Asset',
+
+		'p2m\admin\assets\P2sbAdmin2Asset',
+
  */
 
 namespace p2m\admin\assets;
