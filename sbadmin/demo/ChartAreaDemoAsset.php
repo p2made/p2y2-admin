@@ -10,7 +10,7 @@
  * @link https://github.com/p2made
  * @license MIT
  *
- * @package p2made/yii2-p2y2
+ * @package p2made/p2y2
  * @class \p2m\admin\sbadmin\demo\ChartAreaDemoAsset
  */
 
