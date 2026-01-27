@@ -1,6 +1,6 @@
 <?php
 /**
- * DatatablesDemoAsset.php
+ * ChartPieDemo2Asset.php
  *
  * Yii2 asset for _ResourceName_
  * https:_resource_website_
@@ -10,28 +10,28 @@
  * @link https://github.com/p2made
  * @license MIT
  *
- * @package p2made/yii2-p2y2-things
- * @class \p2m\sbAdmin\demo\DatatablesDemoAsset
+ * @package p2made/p2y2
+ * @class \p2m\sbAdmin\demo\ChartPieDemo2Asset
  */
 
 /**
  * Load this asset with...
-p2m\sbAdmin\demo\DatatablesDemoAsset::register($this);
+p2m\sbAdmin\demo\ChartPieDemo2Asset::register($this);
 
  * or specify as a dependency with...
-		'p2m\sbAdmin\demo\DatatablesDemoAsset',
+		'p2m\sbAdmin\demo\ChartPieDemo2Asset',
  */
 
 namespace p2m\sbAdmin\demo;
 
 use yii\web\AssetBundle;
 
-class DatatablesDemoAsset extends AssetBundle
+class ChartPieDemo2Asset extends AssetBundle
 {
-	public $sourcePath = '@p2m/sbAdmin/demo/sb-admin';
+	public $sourcePath = '@p2m/sbAdmin/demo/sb-admin2';
 
 	public $js = [
-		'datatables-demo.js',
+		'chart-pie-demo.js',
 	];
 
 	public $jsOptions = [

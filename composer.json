@@ -17,8 +17,8 @@
 		}
 	],
 	"support": {
-		"issues": "https://github.com/p2made/p2y2-sb-admin/issues?state=open",
-		"source": "https://github.com/p2made/p2y2-sb-admin"
+		"issues": "https://github.com/p2made/p2y2-admin/issues?state=open",
+		"source": "https://github.com/p2made/p2y2-admin"
 	},
 
 	"minimum-stability": "dev",

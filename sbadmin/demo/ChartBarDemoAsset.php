@@ -1,6 +1,6 @@
 <?php
 /**
- * ChartBarDemo2Asset.php
+ * ChartBarDemoAsset.php
  *
  * Yii2 asset for _ResourceName_
  * https:_resource_website_
@@ -10,25 +10,27 @@
  * @link https://github.com/p2made
  * @license MIT
  *
- * @package p2made/yii2-p2y2-things
- * @class \p2m\sbAdmin\demo\ChartBarDemo2Asset
+ * @package p2made/p2y2
+ * @class \p2m\admin\sbadmin\demo\ChartBarDemoAsset
  */
 
 /**
  * Load this asset with...
-p2m\sbAdmin\demo\ChartBarDemo2Asset::register($this);
-
+p2m\admin\sbadmin\demo\ChartBarDemoAsset::register($this);
+ * or...
+use p2m\admin\sbadmin\demo\ChartBarDemoAsset;
+P2SBAdminAsset::register($this);
  * or specify as a dependency with...
-		'p2m\sbAdmin\demo\ChartBarDemo2Asset',
+		'p2m\admin\sbadmin\demo\ChartBarDemoAsset',
  */
 
-namespace p2m\sbAdmin\demo;
+namespace p2m\admin\sbadmin\demo;
 
 use yii\web\AssetBundle;
 
-class ChartBarDemo2Asset extends AssetBundle
+class ChartBarDemoAsset extends AssetBundle
 {
-	public $sourcePath = '@p2m/sbAdmin/demo/sb-admin2';
+	public $sourcePath = '@p2m/admin/sbadmin/demo/data';
 
 	public $js = [
 		'chart-bar-demo.js',
@@ -39,7 +41,5 @@ class ChartBarDemo2Asset extends AssetBundle
 	];
 
 	public $depends = [
-		'p2m\sbAdmin\demo\P2BootstrapAsset',
-		'p2m\sbAdmin\demo\P2BootstrapIconsAsset',
 	];
 }
