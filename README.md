@@ -1,12 +1,13 @@
-# P2 SB Admin Theme 5.0.0
+# P2 Admin Theme 5.0.0
 
-[![License](https://poser.pugx.org/p2made/p2y2-admin/license)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
-[![Total Downloads](https://poser.pugx.org/p2made/p2y2-admin/downloads)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
-[![Monthly Downloads](https://poser.pugx.org/p2made/p2y2-admin/d/monthly)](https://packagist.org/packages/p2made/yii2-p2y2-things)
-[![Latest Stable Version](https://poser.pugx.org/p2made/p2y2-admin/v/stable)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
-[![Latest Unstable Version](https://poser.pugx.org/p2made/p2y2-admin/v/unstable)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
+[![Latest Stable Version](http://poser.pugx.org/p2made/p2y2-sb-admin/v)](https://packagist.org/packages/p2made/p2y2-sb-admin)
+[![Latest Unstable Version](http://poser.pugx.org/p2made/p2y2-sb-admin/v/unstable)](https://packagist.org/packages/p2made/p2y2-sb-admin)
+[![Total Downloads](http://poser.pugx.org/p2made/p2y2-sb-admin/downloads)](https://packagist.org/packages/p2made/p2y2-sb-admin)
+[![License](http://poser.pugx.org/p2made/p2y2-sb-admin/license)](https://packagist.org/packages/p2made/p2y2-sb-admin)
+[![PHP Version Require](http://poser.pugx.org/p2made/p2y2-sb-admin/require/php)](https://packagist.org/packages/p2made/p2y2-sb-admin)
 
----
+
+--
 
 SB Admin from [Start Bootstrap](http://startbootstrap.com/) as a backend UI for Yii 2 Framework.
 
